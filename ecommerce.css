@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+}
+
+nav h2 {
+    color: white;
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.home {
+    background-color: lavender;
+    padding: 80px;
+}
+
+h1 {
+    color: purple;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.product {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.product h3 {
+    color: purple;
+}
+
+.about {
+    background-color: lavender;
+    padding: 60px;
+}
+
+.contact {
+    padding: 60px;
+    background-color: lightgray;
+}
